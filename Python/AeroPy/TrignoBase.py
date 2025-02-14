@@ -16,8 +16,11 @@ clr.AddReference("System.Collections")
 
 from Aero import AeroPy
 
-key = ""
-license = ""
+from AeroPy import License
+
+license_loader = License.LicenseLoader()
+key = license_loader.key
+license = license_loader.license
 
 
 class TrignoBase():
