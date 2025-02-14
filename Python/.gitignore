@@ -4,3 +4,5 @@ venv/
 *.xml
 */__pycache__/
 *.vs
+**/license/*
+!**/license/info.txt
