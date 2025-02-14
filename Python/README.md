@@ -9,7 +9,7 @@ See [AeroPy Documentation](#AeroPy-Documentation)
 ## Getting Started
 1. Install Python here: [Python 3.12.0](https://www.python.org/downloads/release/python-3120/).
 2. Navigate to the `/Delsys-Python-Demo` base directory
-3. Install dependencies using `python -m pip install -r requirements.txt`
+3. Install dependencies using `python -m pip install -r requirements.txt` and also [.NET SDK](https://dotnet.microsoft.com/es-es/download)
 4. Copy the key/license files provided by Delsys Inc. during system purchase to the `/AeroPy` folder with the names `key.lic` and `license.lic`, respectively. Contact [support](https://delsys.com/support/) if you have any issues.
 5. If you are using an IDE, set up your python interpreter/virtual environment from the settings.
 6. Make sure the Trigno base station or lite are plugged in, then Run `DelsysPythonDemo.py`
