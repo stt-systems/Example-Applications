@@ -1,0 +1,4 @@
+Key and License will be loaded if the files are named as follows in this folder:
+
+- KEY => key.lic
+- LICENSE => license.lic
