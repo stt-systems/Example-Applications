@@ -41,7 +41,7 @@ class LicenseLoader:
     @staticmethod
     def __load_license_file(file_name: str) -> (bool, str):
         # Open the file in read mode
-        file = open(file_name, "r")
+        file = open(file_name, mode="r", encoding="utf-8-sig")
         # Read each line one by one
         line_counter = 0
         file_content = ""
