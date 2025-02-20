@@ -29,7 +29,7 @@ class LicenseLoader:
         else:
             return 1
         path_license = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                    self.__license_folder_name, self.__key_file_name)
+                                    self.__license_folder_name, self.__license_file_name)
         if os.path.isfile(path_license):
             ret, self.__license = self.__load_license_file(path_license)
             if not ret:
