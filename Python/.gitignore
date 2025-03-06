@@ -6,3 +6,6 @@ venv/
 *.vs
 **/license/*
 !**/license/info.txt
+**/build/*
+**/dist/*
+*.spec
