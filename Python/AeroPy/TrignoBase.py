@@ -7,7 +7,13 @@ from pythonnet import load
 
 from Export.CsvWriter import CsvWriter
 
-load("coreclr")
+from sys import exit
+try:
+    load("coreclr")
+except RuntimeError as e:
+    print(e)
+    print("Try to install or re-install .NET: https://dotnet.microsoft.com/en-us/download/dotnet/8.0")
+    exit(1)
 import clr
 import csv
 
